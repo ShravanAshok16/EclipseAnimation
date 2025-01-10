@@ -43,18 +43,18 @@ body{
 @keyframes eclipse-animation{
     0% {
         box-shadow: none;
-        transform: translate(-30px,30px);
-        scale: 0.9;
+        transform: translate(-40px,40px);
+        scale: 1.2;
     }
     50% {
         transform: translate(0px,0px);
-        scale: 1.02;
+        scale: 1.0;
         background-color: #efdbd8;
         box-shadow: 0 0 10px #f9f3f2, 0 0 80px 8px #C7938B;
     }
     100% {
-        transform: translate(30px,-30px);
-        scale: 0.90;
+        transform: translate(50px,-50px);
+        scale: 1.0;
         box-shadow: none;
     }
 }
